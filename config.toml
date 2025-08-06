@@ -196,11 +196,11 @@ uglyURLs = false
 [menu]
     ## Menu bar
     [[menu.main]]
-        pageref = "/"
-        name = "Home"
+        url = "https://blog.xiaorongmao.com"
+        name = "技术"
         weight = 1
-        pre = "internal"
-        post = "home"
+        pre = "external"
+        post = "teach"
     # [[menu.main]]
     #     pageref = "/posts/"
     #     name = "Posts"
@@ -221,7 +221,7 @@ uglyURLs = false
     #     post = "tags"
     [[menu.main]]
         pageref = "/about/"
-        name = "About"
+        name = "关于我"
         weight = 5
         pre = "internal"
         post = "user-circle"
@@ -317,11 +317,18 @@ uglyURLs = false
     # 3. posts     List of post’s summary
     # 4. page      Normal page/post
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## Poetry
     # Verse (Markdown supported)
-    homePoetry = []
+    homePoetry = [
+        '静静的',
+        '静静的',
+        '飘呀飘',
+        '静静的',
+        '静静的',
+        '落呀落',
+    ]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1
@@ -355,7 +362,7 @@ uglyURLs = false
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2020-07-20T20:17:43+00:00"
     # ATTENTION: keep this format, change
     #            the number
 
@@ -1323,7 +1330,7 @@ uglyURLs = false
 
     enableFooter = true
 
-    displayFooter = true
+    displayFooter = false
 
     displayFooterInHome = true
 
@@ -1334,17 +1341,17 @@ uglyURLs = false
 
     # Leave it empty("") if you don’t want
     # the icon
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = ""
     iconColor = "#f06292"
     # Enable heartbeat animation?
-    iconAnimation = true
+    iconAnimation = false
 
-    displaySiteAuthorName = true
+    displaySiteAuthorName = false
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = true
+    displayPoweredBy = false
 
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
     customFooter = ""
@@ -1361,7 +1368,7 @@ uglyURLs = false
     #       https://busuanzi.ibruce.info/
 
     # Socials
-    enableSocials = true
+    enableSocials = false
     # Note: see data/Socials.toml
 
 
