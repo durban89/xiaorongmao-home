@@ -200,7 +200,7 @@ uglyURLs = false
         name = "技术"
         weight = 1
         pre = "external"
-        post = "teach"
+        post = "link"
     # [[menu.main]]
     #     pageref = "/posts/"
     #     name = "Posts"
@@ -322,12 +322,15 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     homePoetry = [
-        '静静的',
-        '静静的',
-        '飘呀飘',
-        '静静的',
-        '静静的',
-        '落呀落',
+        '身上绒毛不起眼，',
+        '软乎乎地贴衣衫。',
+        '蹭来蹭去藏不住，',
+        '风一吹就打旋旋。',
+
+        '沙发角落常落脚，',
+        '猫咪路过带一串。',
+        '别看细碎没分量，',
+        '暖了春秋小半寒。',
     ]
     # Padding of links at the bottom
     # Unit: em
@@ -366,7 +369,7 @@ uglyURLs = false
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "yixiuer"
+    siteTwitter = "durban_zhang"
     # Note: used for Twitter Cards
 
 
@@ -1528,16 +1531,16 @@ uglyURLs = false
     # Author’s information
     [params.author]
         # Name
-        name = "reuixiy"
+        name = "durban"
         # Email
-        email = "reuixiy@gmail.com"
+        email = "durban.zhang@gmail.com"
         # Motto or introduction
         motto = "Viva La Vida"
         # Avatar
         avatar = "/icons/apple-touch-icon.png"
         # Personal website, default: baseURL
-        website = "https://io-oi.me/"
+        website = "https://gowhich.com/"
         # Twitter
-        twitter = "yixiuer"
+        twitter = "durban_zhang"
         # Fediverse
-        fediverse = "@yixiuer@mastodon.social"
+        fediverse = "@durban_zhang@mastodon.social"
